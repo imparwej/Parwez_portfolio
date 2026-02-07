@@ -5,6 +5,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import googlePlay from '../assets/GOOGLE PLAY ACADEMY.jpg';
 import nodeCert from '../assets/node-certificate.jpg';
 import uiuxCert from '../assets/uiux-certificate.jpg';
+import aiCert from '../assets/AI-Certificate.jpg';
 
 const About = ({ darkMode }) => {
   const [activeTab, setActiveTab] = useState('education');
@@ -41,11 +42,11 @@ const About = ({ darkMode }) => {
   // Certification data with images
   const certificationData = [
     {
-      title: 'IDEATHON',
-      issuer: 'P.I.E.T',
-      year: '2021',
-      credential: 'WFHJSDFHDHJ',
-      // image: awsCert
+     title: 'Artificial Intelligence',
+      issuer: 'IBM',
+      year: '2025',
+      credential: 'b87f820b-52c5-4769-9306-29a82e87aa6c',
+      image: aiCert
     },
     {
       title: 'Google Play Academy',
@@ -68,6 +69,7 @@ const About = ({ darkMode }) => {
       credential: 'SELF-STUDY',
       // image: uiuxCert
     }
+      
   ];
 
   // Intersection Observer for scroll animations

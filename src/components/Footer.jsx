@@ -24,7 +24,7 @@ const Footer = ({ darkMode }) => {
               },
               { 
                 platform: 'github', 
-                url: 'https://github.com/Mdparwej000/Mdparwej000', 
+                url: 'https://github.com/imparwej?tab=repositories', 
                 color: 'hover:text-purple-500',
                 bgColor: 'hover:bg-purple-500/20',
                 iconColor: darkMode ? 'text-purple-600' : 'text-purple-700'

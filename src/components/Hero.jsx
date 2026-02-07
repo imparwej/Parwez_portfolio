@@ -5,7 +5,7 @@ import {
   FaFigma, FaSass, FaDocker, FaAws, FaGitAlt, FaNpm, FaAndroid, FaApple, FaDatabase
 } from 'react-icons/fa';
 import ProfileImage from '../assets/profile.jpg'; 
-import ResumePDF from '../assets/PARWEZCV.pdf';  // ✅ Import your actual CV
+import ResumePDF from '../assets/PARWEJCV.pdf';  // ✅ Import your actual CV
 
 const Hero = () => {
   const [currentRole, setCurrentRole] = useState(0);
@@ -154,7 +154,7 @@ const Hero = () => {
               <FaLinkedin className="text-2xl text-gray-600 hover:text-purple-600 dark:text-gray-400 dark:hover:text-purple-400 transition-colors" />
             </a>
             <a 
-              href="https://github.com/Mdparwej000" 
+              href="https://github.com/imparwej?tab=repositories" 
               target="_blank" 
               rel="noopener noreferrer"
               className="social-icon"
